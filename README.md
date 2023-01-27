@@ -6,6 +6,6 @@
 ![PSa0](https://user-images.githubusercontent.com/98397090/215052469-05645b38-305d-40fd-9ebd-fd08d976df0d.png)
 
 <div align=center>
-<img src="https://github.com/BIT-MJY/Active-SLAM-Based-on-Information-Theory/blob/master/img/1-2.png" width="180" height="105"> width="180" height="105"/>
+<img src="https://github.com/AshenOneme/OpenSees-self-centering-frame-IDA/blob/main/ATC-63%E5%9C%B0%E9%9C%87%E6%B3%A2/ATC-63%E8%BF%9C%E5%9C%BA%E5%9C%B0%E9%9C%87%E6%B3%A2-%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%940.02s/PSa%2CPSv%2CSd0.png" width="180" height="105"> width="180" height="105"/>
 ![节点信息](https://user-images.githubusercontent.com/98397090/215063645-e698ed05-4f70-49cd-b98b-91d4692649ec.png)
 </div>
