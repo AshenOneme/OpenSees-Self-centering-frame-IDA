@@ -8,6 +8,8 @@
 ![PSa0](https://user-images.githubusercontent.com/98397090/215052469-05645b38-305d-40fd-9ebd-fd08d976df0d.png)
 
 ---------------------------------------------------------------
-
+**[特别声明]**
+IDA分析模型基于Python3.9.8 | OpenSeespy3.4.0.1
+---------------------------------------------------------------
 <div align=center><img width="500" height="500" src="https://user-images.githubusercontent.com/98397090/215063645-e698ed05-4f70-49cd-b98b-91d4692649ec.png"/></div>
 
