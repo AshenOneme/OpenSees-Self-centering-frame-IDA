@@ -17,8 +17,8 @@ IDA分析模型基于Python3.9.8 | OpenSeespy3.4.0.1
 
 * ### IDA分析结果展示 ###
 <div align=center>
-  <img height="200px" src="https://user-images.githubusercontent.com/98397090/215072316-2d9b1a13-3a98-427c-bf7c-5ef6a4c370b0.png" />
-  <img height="200px" src="https://user-images.githubusercontent.com/98397090/215072331-f61bb75b-4063-4d79-92d3-0cbed5465fcb.png" />
-  <img height="200px" src="https://user-images.githubusercontent.com/98397090/215072340-185b5958-b00a-4ad1-95bf-fa0855a7350c.png" />
+  <img height="180px" src="https://user-images.githubusercontent.com/98397090/215072316-2d9b1a13-3a98-427c-bf7c-5ef6a4c370b0.png" />
+  <img height="180px" src="https://user-images.githubusercontent.com/98397090/215072331-f61bb75b-4063-4d79-92d3-0cbed5465fcb.png" />
+  <img height="180px" src="https://user-images.githubusercontent.com/98397090/215072340-185b5958-b00a-4ad1-95bf-fa0855a7350c.png" />
 </div>
 
