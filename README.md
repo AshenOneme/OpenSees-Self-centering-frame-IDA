@@ -1,4 +1,4 @@
-# OpenSees-self-centering-frame-IDA
+# OpenSees-Self-centering-frame-IDA
 ### :panda_face:ATC-63推荐地震波 ###   
 **[特别声明]**
 所有地震波均进行了归一化处理，时间间隔设为0.02s，敬请放心调用。
