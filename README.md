@@ -40,3 +40,26 @@ IDA分析模型基于Python3.9.8 | OpenSeespy3.4.0.1
     <td colspan="3"><div align=center><img height="300px" src="https://user-images.githubusercontent.com/98397090/215636562-53c2a2b4-9efb-4e0e-9e8d-01779b488f68.png"/></td>
   </tr>
 </table>
+
+```diff
+--->记录节点在1方向的位移
+ops.recorder('Node','-file',f"{Output_PGA}/Disp.txt","-time",'-node',1001,1002,1003,1004,7001,7011,7021,7031,
+                     15001,15011,15021,15031,23001,23011,23021,23031,31001,31011,31021,31031,
+                     39001,39011,39021,39031,47001,47011,47021,47031,'-dof',1,'disp')
+--->记录节点在1方向的反力
+ops.recorder('Node','-file',f"{Output_PGA}/Reaction.txt","-time",'-node',1,2,3,4,'-dof',1,'reaction')
+--->记录单元在整体坐标系的力
+ops.recorder('Element','-file',f"{Output_PGA}/Force1.txt","-time",'-ele',1001,1002,1003,1004,'globalForce')
+--->记录纵筋在第2个积分截面处，距离截面坐标(250,125)最近的纤维处，材料1的应力应变                                [第二个积分点] [纤维坐标] [材料1] [应力应变]
+ops.recorder('Element','-file',f"{Output_PGA}/Lbar.txt","-time",'-ele',9013,109013,209013,309013,409013,509013,'section',2,'fiber',250,125,1,'stressStrain')
+--->记录保护层混凝土在第2个积分截面处，距离截面坐标(250,125)最近的纤维处，材料2的应力应变                         [第二个积分点] [纤维坐标] [材料1] [应力应变]
+ops.recorder('Element','-file',f"{Output_PGA}/CoverC.txt","-time",'-ele',9013,109013,209013,309013,409013,509013,'section',2,'fiber',250,125,2,'stressStrain')
+--->记录桁架单元的轴力
+ops.recorder('Element','-file',f"{Output_PGA}/EDB1_AF.txt","-time",'-ele',310062,410062,510062,'axialForce')
+--->记录桁架单元的变形
+ops.recorder('Element','-file',f"{Output_PGA}/EDB1_DEF.txt","-time",'-ele',310062,410062,510062,'deformation')
+--->记录阻尼器的变形
+ops.recorder('Element','-file',f"{Output_PGA}/REDE1_DEF.txt","-time",'-ele',10050,110050,210050,'deformation')
+--->记录阻尼器的出力
+ops.recorder('Element','-file',f"{Output_PGA}/REDE1_LF.txt","-time",'-ele',10050,110050,210050,'localForce')
+```
