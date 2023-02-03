@@ -41,7 +41,9 @@ IDA分析模型基于Python3.9.8 | OpenSeespy3.4.0.1
   </tr>
 </table>
 
+* ### Recorder method ###
 ```diff
++[特别声明] OpenSees输出调用方法
 --->记录节点在1方向的位移
 ops.recorder('Node','-file',f"{Output_PGA}/Disp.txt","-time",'-node',1001,1002,1003,1004,7001,7011,7021,7031,
                      15001,15011,15021,15031,23001,23011,23021,23031,31001,31011,31021,31031,
